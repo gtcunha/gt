@@ -41,17 +41,17 @@ body {
 
 .conteudo {
     margin: 10%;
-    display: flex;
-    justify-content: center;
+    
 }
 
 
-.conteudo__principal {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 650px;
+.conteudo__section {
+    height: 100vh;
 
+}
+
+.conteudo__titulo {
+    text-align: center;
 }
 
 
