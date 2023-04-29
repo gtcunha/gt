@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #C0C0C0;
+}
+
+.cabecalho {    
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__menu {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+        
+}
+
+.cabecalho__menu__lista {
+    display: flex;
+    align-items: center;
+    
+}
+
+.cabecalho__menu a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;    
+    padding: 10px 20px;
+    
+    
+}
+
+.cabecalho__imagem {
+    width: 280px;
+    padding: 0;
+    margin: 0 50px 0 100px;
+}
+
+.conteudo {
+    margin: 10%;
+    
+}
+
+
+.conteudo__section {
+    height: 100vh;
+
+}
+
+.conteudo__titulo {
+    text-align: center;
+}
+
+
+.rodape {    
+    background-color: gray;
+}
+
+.rodape__divisao {
+    padding: 50px 0;
+}
+
+.rodape__divisao__copyright {
+    text-align: center;
+    font-weight: bolder;
+}
