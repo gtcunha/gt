@@ -1,42 +1,44 @@
 body {
     height: 100vh;
     box-sizing: border-box;
+    background-color: #C0C0C0;
 }
 
 .cabecalho {    
-    background-color: black;
-    height: 157.5px;
+    
 }
 
 .cabecalho__menu {
-    margin: 0 40px;
-    
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+        
 }
 
 .cabecalho__menu__lista {
     display: flex;
-    flex-direction: row;
     align-items: center;
     
 }
 
 .cabecalho__menu a {
     text-decoration: none;
-    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
     color: white;
-    background-color: blue;
     font-weight: bold;
-    width: 280px;
     border-radius: 5px;    
-    padding: 10px 40px;
-    margin: 0 5px;
+    padding: 10px 20px;
+    
     
 }
 
 .cabecalho__imagem {
     width: 280px;
     padding: 0;
-    margin: 0 100px 0 0;
+    margin: 0 50px 0 100px;
 }
 
 .conteudo {
